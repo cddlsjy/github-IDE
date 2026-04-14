@@ -1,23 +1,17 @@
-# Gradle files
-.gradle/
-build/
-
-# IDE files
-.idea/
+/build/
+/.gradle/
+/.idea/
 *.iml
-*.ipr
-*.iws
-
-# Android files
 local.properties
-
-# OS files
+*.class
+*.apk
+*.aar
+*.ap_
+*.dex
+*.jar
+*.so
+*.o
+*.a
+*.log
 .DS_Store
 Thumbs.db
-
-# Log files
-*.log
-
-# Temporary files
-*.tmp
-*.temp
