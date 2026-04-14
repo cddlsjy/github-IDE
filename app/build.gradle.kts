@@ -35,7 +35,9 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "17"
+                jvmTarget = "17"
+        // 添加这两行 ↓
+        freeCompilerArgs += listOf("-opt-in=androidx.compose.foundation.ExperimentalFoundationApi")
     }
     buildFeatures {
         compose = true
