@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace 'com.example.githubfileexplorer'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.example.githubfileexplorer"
-        minSdk 21
-        targetSdk 34
+        minSdk 24
+        targetSdk 35
         versionCode 1
         versionName "1.0"
     }
